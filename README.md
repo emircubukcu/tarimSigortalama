@@ -17,4 +17,5 @@ Projede bulunan arayüzlerden sorumluyum.
 ## Yazılım 
 
 ### Arayüz
-Arayüz yapımında Materail Kit-2 bootstrapini kullandık.Bu bootstrap sayesinde arayüzlerin daha akışkan ve duyarlı olmasını sağladık. Bootstrap olarak material kit'i seçtik.Çünkü site içerisinde kullanım kolaylığı sağlaması,arayüzlerin anlaşılırlığının iyi olması ve dokümantasyonun detaylı bir şekilde yazılmış olmasıdır. 
+Arayüz yapımında Materail Kit-2 bootstrapini kullandık.Bu bootstrap sayesinde arayüzlerin daha akışkan ve duyarlı olmasını sağladık. Bootstrap olarak material kit'i seçtik.Çünkü site içerisinde kullanım kolaylığı sağlaması,arayüzlerin anlaşılırlığının iyi olması ve dokümantasyonun detaylı bir şekilde yazılmış olmasıdır.
+![alt_text](https://github.com/emircubukcu/tarimSigortalama/blob/main/img_readme/Material-kit.PNG "Material Kit-2")
