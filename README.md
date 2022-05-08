@@ -16,6 +16,13 @@ Javascript,Css ve Php kullanmakta iyiyim.
 Projede bulunan arayüzlerden sorumluyum.
 ### Özge Akdaş
 Projenin veritabanı tasarımından sorumluyum.
+### Emine Erdem
+Projenin backend kısmından sorumluyum.
+### Rüveyda Özlü
+Projenin backend kısmından sorumluyum.
+### Görkem Berberoğlu
+Projenin backend kısmından sorumluyum.
+
 
 
 
