@@ -14,6 +14,8 @@ Yazılım geliştirmede uygulandığında, model, bir şelalenin suyu gibi ilerl
 ### Emir Çubukçu
 Javascript,Css ve Php kullanmakta iyiyim.
 Projede bulunan arayüzlerden sorumluyum.
+### Özge Akdaş
+Projenin veritabanı tasarımından sorumluyum.
 
 
 
