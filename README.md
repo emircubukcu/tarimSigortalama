@@ -29,7 +29,7 @@ Projenin veritabanı tasarımından sorumluyum.
 
 
 ### Yazılım  
-Kullanıcılara hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik.
+Kullanıcılar hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik. Çünkü, çeşitli özellikler sunan çok yönlü kod yazma dili sitelere birçok işlev katmayı sağlayarak web sayfalarını interaktif ve canlı bir hale getiriyor. Dinamik bir web site oluşturma sürecini çok daha kolay ve hızlı bir şekilde tamamlamayı sağlıyor.
 
 ### Veritabanı
 Projede Mysql veritabanı yönetim sistemi kullanılacaktır. Web sunucularda en çok kullanılan veritabanı olup PHP dili gibi birçok web programlama diliyle kullanulabilir. Açık kaynaklı veritabanı olması ve daha iyi performans sunabilmek ve dayanıklılık için verileri ve bölümleme tablolarını çoğaltma yeteneğine de sahip olduğu için tercih ettik. 
