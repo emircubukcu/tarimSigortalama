@@ -22,14 +22,13 @@ Projenin backend kısmından sorumluyum.
 Projenin backend kısmından sorumluyum.
 ### Görkem Berberoğlu
 Projenin backend kısmından sorumluyum.
-### Burak Eren Çatal
-Projenin veritabanı tasarımından sorumluyum.
+
 
 
 
 
 ## Yazılım  
-Kullanıcılar, hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik.
+Kullanıcılar, hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik. Çünkü, çok çeşitli özellikler sunan çok yönlü kod yazma dili sitelere birçok işlev katarak web sayfalarını interaktif ve canlı bir hale getiriyor. Dinamik bir web site oluşturma sürecini çok daha kolay ve hızlı bir şekilde tamamlamayı sağlıyor. 
 
 ### Arayüz
 Arayüz yapımında Materail Kit-2 bootstrapini kullandık.Bu bootstrap sayesinde arayüzlerin daha akışkan ve duyarlı olmasını sağladık. Bootstrap olarak material kit'i seçtik.Çünkü site içerisinde kullanım kolaylığı sağlaması,arayüzlerin anlaşılırlığının iyi olması ve dokümantasyonun detaylı bir şekilde yazılmış olmasıdır.
