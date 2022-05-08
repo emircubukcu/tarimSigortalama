@@ -27,8 +27,11 @@ Projenin backend kısmından sorumluyum.
 
 
 
-## Yazılım  
-Kullanıcılar, hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik. Çünkü, çeşitli özellikler sunan çok yönlü kod yazma dili sitelere birçok işlev katarak web sayfalarını interaktif ve canlı bir hale getiriyor. Dinamik bir web site oluşturma sürecini çok daha kolay ve hızlı bir şekilde tamamlamayı sağlıyor. 
+### Yazılım  
+Kullanıcılara hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik.
+
+### Veritabanı
+Projede Mysql veritabanı yönetim sistemi kullanılacaktır. Web sunucularda en çok kullanılan veritabanı olup PHP dili gibi birçok web programlama diliyle kullanulabilir. Açık kaynaklı veritabanı olması ve daha iyi performans sunabilmek ve dayanıklılık için verileri ve bölümleme tablolarını çoğaltma yeteneğine de sahip olduğu için tercih ettik. 
 
 ### Arayüz
 Arayüz yapımında Materail Kit-2 bootstrapini kullandık.Bu bootstrap sayesinde arayüzlerin daha akışkan ve duyarlı olmasını sağladık. Bootstrap olarak material kit'i seçtik.Çünkü site içerisinde kullanım kolaylığı sağlaması,arayüzlerin anlaşılırlığının iyi olması ve dokümantasyonun detaylı bir şekilde yazılmış olmasıdır.
