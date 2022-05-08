@@ -27,7 +27,8 @@ Projenin backend kısmından sorumluyum.
 
 
 
-## Yazılım 
+## Yazılım  
+Kullanıcılara hizmete web sitesi üzerinden erişeceği için PHP dilini tercih ettik.
 
 ### Arayüz
 Arayüz yapımında Materail Kit-2 bootstrapini kullandık.Bu bootstrap sayesinde arayüzlerin daha akışkan ve duyarlı olmasını sağladık. Bootstrap olarak material kit'i seçtik.Çünkü site içerisinde kullanım kolaylığı sağlaması,arayüzlerin anlaşılırlığının iyi olması ve dokümantasyonun detaylı bir şekilde yazılmış olmasıdır.
