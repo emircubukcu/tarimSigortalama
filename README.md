@@ -24,6 +24,8 @@ Projenin backend kısmından sorumluyum.
 Projenin backend kısmından sorumluyum.
 ### Burak Eren Çatal
 Projenin veritabanı tasarımından sorumluyum.
+### Melike Yoğurtcu
+Projenin frontend kısmında sorumluyum.
 
 
 
