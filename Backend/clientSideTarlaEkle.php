@@ -52,7 +52,7 @@ mysqli_close($baglanti);
   <!-- Navbar Transparent -->
   <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3 navbar-transparent">
     <div class="container">
-      <a class="navbar-brand  text-white " href="clientSideMain.php" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+      <a class="navbar-brand  text-white " href="clientSideMain.php" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
         Tarım Sigortalama
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
