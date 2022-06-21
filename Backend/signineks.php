@@ -64,7 +64,7 @@ header("Location: expertSideMain.php");
   <!-- Navbar Transparent -->
   <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
     <div class="container">
-      <a class="navbar-brand  text-white " href="https://demos.creative-tim.com/material-kit/presentation" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+      <a class="navbar-brand  text-white " href="signineks.php" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
         Tarım Sigortalama
       </a>
       <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -140,7 +140,6 @@ header("Location: expertSideMain.php");
                   <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Giriş Yap </button>
                 </div>
                 <p class="mt-4 text-sm text-center">
-                  Hesabın yok mu?
                 </p>
               </form>
             </div>
