@@ -70,6 +70,11 @@ $cevap = mysqli_query($baglanti, $sql);
           </li>
           
         </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -116,7 +121,7 @@ $cevap = mysqli_query($baglanti, $sql);
             </div>
             <div class="input-group input-group-outline my-3">
               <label class="form-label">Şifre</label>
-              <input type="text" name="password" class="form-control">
+              <input type="password" name="password" class="form-control">
             </div>
             <button type="submit" class="btn btn-primary btn-lg">Bilgilerimi Güncelle</button>
           </form>

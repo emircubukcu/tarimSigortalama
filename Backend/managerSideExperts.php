@@ -58,6 +58,11 @@ exit();
             </a>
           </li>
         </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -93,6 +98,7 @@ exit();
 			  
 <?php
 
+	require('_mysqlbaglan.php');
 	$kuladi=$_SESSION['kullaniciadi'];
 	include("_mysqlbaglan.php");
 	$sql1="SELECT mudurluk_id FROM genelmudurluk WHERE mudurluk_email='$kuladi'";
@@ -103,7 +109,7 @@ exit();
 	
 	$sql = "SELECT eksper_id,eksper_ad,eksper_soyad,eksper_durum FROM eksper ";
 	$cevap = mysqli_query($baglanti,$sql);
-
+	
 	
 	while($gelen=mysqli_fetch_array($cevap))
 	{
@@ -128,9 +134,9 @@ exit();
      echo               "</span>";
      echo             "</td>";
      echo             "<td class='align-middle'>";
-     echo               "<button class='btn btn-primary btn-sm'>";
+     echo               "<a href='expergorev.php?id=".$gelen['eksper_id']."&web=".$tarlaid."'"."class='btn btn-primary btn-sm'>";
      echo                 "Görevlendir";
-     echo               "</button>";
+     echo               "</a>";
      echo             "</td>";
      echo           "</tr>";
         

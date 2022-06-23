@@ -72,6 +72,11 @@ echo '<br>Hata:'. mysqli_error($baglanti);
           </li>
           
         </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -157,7 +162,7 @@ echo '<br>Hata:'. mysqli_error($baglanti);
     echo              "</td>";
     echo              "<td class='align-middle text-center'>";
     echo                "<div class='align-items-center'>";
-    echo                  "<span class='me-2 text-xs'>".$gelen['tarla_prim']."</span>";
+    echo                  "<span class='me-2 text-xs'>".$gelen['tarla_prim']."TL"."</span>";
     echo                "</div>";
     echo              "</td>";
     echo              "<td class='align-middle'>";

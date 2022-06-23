@@ -75,6 +75,11 @@ echo '<br>Hata:' . mysqli_error($baglanti);
           </li>
           
         </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>

@@ -19,8 +19,10 @@ $mid=$gelen["musteri_id"];
 //echo '<br>Hata:' . mysqli_error($baglanti);
 //}
 
-$sql="INSERT INTO `tarla` (tarla_ad,tarla_boyut,tarla_konum,tarla_urun,tarla_rapor,tarla_prim,musteri_id,mudurluk_id)";
-$sql = $sql . "VALUES ('$ad',$boyut,'$konum','$urun','boss',125,$mid,1)";
+$tahminiprim=($boyut*3200);
+
+$sql="INSERT INTO `tarla` (tarla_ad,tarla_boyut,tarla_konum,tarla_urun,tarla_rapor,tarla_prim,musteri_id,mudurluk_id,eksper_id)";
+$sql = $sql . "VALUES ('$ad',$boyut,'$konum','$urun','boss',$tahminiprim,$mid,1,1)";
 $cevap = mysqli_query($baglanti, $sql);
 
 //if(!$cevap){
@@ -78,6 +80,11 @@ mysqli_close($baglanti);
             </a>
           </li>
           
+        </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
+          </li>
         </ul>
       </div>
     </div>

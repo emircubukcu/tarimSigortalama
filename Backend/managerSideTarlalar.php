@@ -46,15 +46,20 @@ exit();
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="managerSideReport.php" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
             Hasar İhbarları
             </a>
           </li>
 
           <li class="nav-item px-3">
-            <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="managerSideExperts.php" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
             Eksperler
             </a>
+          </li>
+        </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
           </li>
         </ul>
       </div>
@@ -101,7 +106,7 @@ exit();
 	$gelen2=mysqli_fetch_array($cevapa);
 	$mid=$gelen2["mudurluk_id"];
 	
-	$sql = "SELECT tarla_ad,tarla_boyut,tarla_konum,tarla_urun FROM tarla WHERE mudurluk_id='$mid'";
+	$sql = "SELECT tarla_id,tarla_ad,tarla_boyut,tarla_konum,tarla_urun FROM tarla WHERE mudurluk_id='$mid'";
 	$cevap = mysqli_query($baglanti,$sql);
 	
 	//$sql2 = "SELECT musteri_id FROM tarla WHERE mudurluk_id='$mid'";
@@ -147,15 +152,21 @@ exit();
     echo               " </div>";
     echo             " </td>";
     echo              "<td class='align-middle'>";
-    echo                "<button class='btn btn-primary btn-sm'>";
+    echo                "<a href='managerSideExperts.php?tid=".$gelen['tarla_id']."'"."class='btn btn-primary btn-sm'>";
     echo                  "Görevlendir";
-    echo                "</button>";
+    echo                "</a>";
+    echo              "</td>";
+    echo              "<td class='align-middle'>";
+    echo                "<a href='kayitsilmanager.php?id=".$gelen['tarla_id']."'"."class='btn btn-primary btn-sm'>";
+    echo                  "Sil";
+    echo                "</a>";
     echo              "</td>";
     echo            "</tr>";
                 
         
     echo          "</tbody>";
 	}
+	//mysqli_close($baglanti);
 ?>
             </table>
           </div>

@@ -37,7 +37,7 @@ $gelen=mysqli_fetch_array($cevap);
   <!-- Navbar Transparent -->
   <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3 navbar-transparent">
     <div class="container">
-      <a class="navbar-brand  text-white " href="expertSideMain.php" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+      <a class="navbar-brand  text-white " href="expertSideMain.php" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom">
         Tarım Sigortalama
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,6 +60,11 @@ $gelen=mysqli_fetch_array($cevap);
           <li class="nav-item px-3">
           </li>
           
+        </ul>
+		<ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item my-auto ms-3 ms-lg-0">
+            <a href="_logout.php" class="btn btn-sm  bg-gradient-secondary  mb-0 me-1 mt-2 mt-md-0">Çıkış Yap</a>
+          </li>
         </ul>
       </div>
     </div>
