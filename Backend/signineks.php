@@ -140,7 +140,6 @@ header("Location: expertSideMain.php");
                   <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Giriş Yap </button>
                 </div>
                 <p class="mt-4 text-sm text-center">
-                  Hesabın yok mu?
                 </p>
               </form>
             </div>
